@@ -1,0 +1,41 @@
+{
+  "name": "@tinkoff/style-hoc",
+  "version": "0.0.0",
+  "sideEffects": false,
+  "description": "HOC, позволяющий переопределять стили компонентов",
+  "author": "SuperOl3g <oleglykasov@gmail.com>",
+  "main": "dist/index.js",
+  "keywords": [
+    "react",
+    "hoc",
+    "style",
+    "theming"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "prop-types": "*"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@tinkoff/utils": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/cli": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.5.1",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.5.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf dist && babel --ignore __tests__,lib,node_modules --extensions .js,.jsx ./src --out-dir ./dist --copy-files"
+  }
+}
