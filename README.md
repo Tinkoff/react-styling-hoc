@@ -5,7 +5,7 @@
 
 ## Установка
 ```
- npm i @tinkoff/style-hoc
+ npm i react-styling-hoc
 ```
 
 ## Явное задание темы
@@ -13,7 +13,7 @@
 ##### Button.jsx
 ```javascript
 import defaultStyles from './Button.css';
-import styleHOC from '@tinkoff/style-hoc';
+import styleHOC from 'react-styling-hoc';
 
 class Button extends Component {
     render() {
@@ -97,7 +97,7 @@ const MyButton = props => <Button
 ```javascript
 import InputGroup from '@tinkoff-ui/inputGroup';
 import Input from '@tinkoff-ui/input';
-import { ThemeProvider } from '@tinkoff/style-hoc';
+import { ThemeProvider } from 'react-styling-hoc';
 
 import themeStyles from 'myInput.theme.css';
 
@@ -134,7 +134,7 @@ const MyComponent = () => <div>
  ```javascript
   import Calendar from '@tinkoff-ui//calendar';
   import Input from '@tinkoff-ui/input';
-  import styleHOC from '@tinkoff/style-hoc';
+  import styleHOC from 'react-styling-hoc';
 
   const InputDate = styleHOC()(({ themeBlocks }) => {
       const CalendarElem = themeBlocks && themeBlocks.Calendar || Calendar;
