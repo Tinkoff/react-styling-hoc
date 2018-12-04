@@ -21,7 +21,7 @@
   "bugs": { 
     "url": "https://github.com/TinkoffCreditSystems/react-styling-hoc/issues"
   },
-  "homepage": "https://github.com/TinkoffCreditSystems/react-styling-hoc"
+  "homepage": "https://github.com/TinkoffCreditSystems/react-styling-hoc",
   "peerDependencies": {
     "react": "*",
     "react-dom": "*",
