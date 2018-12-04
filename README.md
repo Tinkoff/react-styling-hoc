@@ -1,7 +1,8 @@
-# style-hoc [![npm version](https://badge.fury.io/js/react-styling-hoc.svg)](https://badge.fury.io/js/react-styling-hoc)
+# react-styling-hoc [![npm version](https://badge.fury.io/js/react-styling-hoc.svg)](https://badge.fury.io/js/react-styling-hoc)
 
-## Зачем
-Механизм темизации позволяет переопределять стили для любых **присутствующих в разметке** компонента селекторов.
+Механизм темизации для [React](https://github.com/facebook/react)-компонентов, написанных с использованием [CSS модулей](https://github.com/css-modules/css-modules).
+<br>
+Позволяет переопределять стили для любых **присутствующих в разметке** компонента селекторов.
 
 ## Установка
 ```
