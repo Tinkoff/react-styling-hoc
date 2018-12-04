@@ -1,9 +1,10 @@
 {
   "name": "react-styling-hoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "sideEffects": false,
   "description": "HOC, позволяющий переопределять стили компонентов",
   "author": "SuperOl3g <oleglykasov@gmail.com>",
+  "license": "Apache-2.0",
   "main": "dist/index.js",
   "keywords": [
     "react",
