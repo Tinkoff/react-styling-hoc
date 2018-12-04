@@ -1,0 +1,10 @@
+__test__/
+node_modules/
+src/
+.gitignore
+babel.config.js
+jest.config.js
+setupFileTest.js
+.idea
+.vscode
+npm-debug.log
