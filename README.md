@@ -4,6 +4,9 @@
 <br>
 Позволяет переопределять стили для любых **присутствующих в разметке** компонента селекторов.
 
+## Механизм работы
+![](https://habrastorage.org/webt/oc/oz/sr/ocozsrnzqv8ixfjyaexu9_wzcug.png)
+
 ## Установка
 ```
  npm i react-styling-hoc
