@@ -1,6 +1,6 @@
 {
   "name": "react-styling-hoc",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "sideEffects": false,
   "description": "HOC, позволяющий переопределять стили компонентов",
   "author": "SuperOl3g <oleglykasov@gmail.com>",
