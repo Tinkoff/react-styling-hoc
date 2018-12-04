@@ -10,7 +10,9 @@
     "react",
     "hoc",
     "style",
-    "theming"
+    "theming",
+    "css",
+    "modules"
   ],
   "peerDependencies": {
     "react": "*",
